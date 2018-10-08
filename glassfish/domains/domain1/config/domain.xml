@@ -455,12 +455,11 @@
   </secure-admin>
   <clusters></clusters>
   <applications>
-    <application context-root="/CdCollectionWeb4663316532404206509" object-type="user" name="CdCollectionWeb" location="${com.sun.aas.instanceRootURI}/applications/CdCollectionWeb/">
+    <application context-root="/CdCollectionWeb7089354957159317749" object-type="user" name="CdCollectionWeb" location="${com.sun.aas.instanceRootURI}/applications/CdCollectionWeb/">
       <property name="archiveType" value="war"></property>
-      <property name="implicitCdiEnabled" value="true"></property>
-      <property name="preserveAppScopedResources" value="false"></property>
-      <property name="appLocation" value="${com.sun.aas.instanceRootURI}/applications/__internal/CdCollectionWeb/CdCollectionWeb4663316532404206509.war"></property>
-      <property name="defaultAppName" value="CdCollectionWeb4663316532404206509"></property>
+      <property name="java-web-start-enabled" value="true"></property>
+      <property name="appLocation" value="${com.sun.aas.instanceRootURI}/applications/__internal/CdCollectionWeb/CdCollectionWeb9013843869512673690.war"></property>
+      <property name="defaultAppName" value="CdCollectionWeb9013843869512673690"></property>
       <module name="CdCollectionWeb">
         <engine sniffer="security"></engine>
         <engine sniffer="web"></engine>
