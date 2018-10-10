@@ -41,3 +41,4 @@ REM
 
 java -jar "%~dp0..\modules\admin-cli.jar" start-domain --verbose %*
 
+

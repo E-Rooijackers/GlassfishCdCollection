@@ -1,16 +1,18 @@
-/* AUTOMATICALLY GENERATED ON Tue Oct 09 13:55:19 CEST 2018*/
+/* AUTOMATICALLY GENERATED ON Tue Oct 09 23:50:31 CEST 2018*/
 /* DO NOT EDIT */
 
 grant {
-  permission javax.security.jacc.WebResourcePermission "/";
   permission javax.security.jacc.WebUserDataPermission "/";
+  permission javax.security.jacc.WebResourcePermission "/";
 };
 
 grant      principal * * {
   permission javax.security.jacc.WebRoleRefPermission "jsp", "**";
   permission javax.security.jacc.WebRoleRefPermission "", "**";
+  permission javax.security.jacc.WebRoleRefPermission "AboutUsServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "ContactServlet", "**";
   permission javax.security.jacc.WebRoleRefPermission "AlbumsServlet", "**";
+  permission javax.security.jacc.WebRoleRefPermission "HomeServlet", "**";
   permission javax.security.jacc.WebRoleRefPermission "default", "**";
-  permission javax.security.jacc.WebRoleRefPermission "CdCollectionServlet", "**";
 };
 
